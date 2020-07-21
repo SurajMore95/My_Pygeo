@@ -82,7 +82,7 @@ class Ray:
 class Sphere:
     """A sphere."""
 
-     def __init__(self, sphere):
+    def __init__(self, sphere):
         self._sphere = np.array(sphere, dtype=float)
 
     def __repr__(self):

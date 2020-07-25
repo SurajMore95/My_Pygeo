@@ -3,8 +3,8 @@ from pygeo.intersect import (
     _intersect_ray_with_sphere,
     _intersect_ray_with_triangle,
 )
-from pygeo.objects import Point, Vector, Ray, Sphere, Triangle
 
+from pygeo.objects import Point, Vector, Ray, Sphere, Triangle
 import pytest
 
 
@@ -17,8 +17,8 @@ def test_intersect_ray_sphere():
     assert (expected == intercepts) is True
 
 
-# _intersect_ray_with_sphere
 
+# _intersect_ray_with_sphere
 
 def test_intersect_ray_with_sphere_true():
     r1 = Ray((0, 0, 0), (10, 0, 0))

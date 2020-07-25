@@ -63,3 +63,5 @@ def test_intersect_ray_with_triangle_true():
     intercepts_analytical = Point([0.3333333333333333, 0.3333333333333333, 0.3333333333333333])
     d_analytical=1
     assert ((intercepts == intercepts_analytical) and (d_analytical==d) ) is True
+
+    
